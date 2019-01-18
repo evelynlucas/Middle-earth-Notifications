@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Homework0302</string>
+    <string name="display_title_test_string">Frodo</string>
+    <string name="display_message_test_string">Something or Other</string>
+    <string name="notification_text">Notification</string>
+    <string name="display_image_text">Image of character from Tolkien\'s Middle-Earth</string>
+    <string name="thumbnail_image_description">A character from Tolkien\'s Middle-Earth</string>
+    <string name="rv_title_text">Frodo Baggins</string>
+    <string name="rv_message_text">Frodo is a brave hobbit and he did many things etc blah</string>
+</resources>
