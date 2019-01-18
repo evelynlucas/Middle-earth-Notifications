@@ -1,4 +1,4 @@
-package org.pursuit.homework0302;
+package org.pursuit.Notification_App_HW_LUCAS_EVELYN;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -11,7 +11,6 @@ import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.NotificationManagerCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;

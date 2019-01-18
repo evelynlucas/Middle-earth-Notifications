@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "org.pursuit.homework0302"
+        applicationId "org.pursuit.Notification_App_HW_LUCAS_EVELYN"
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1

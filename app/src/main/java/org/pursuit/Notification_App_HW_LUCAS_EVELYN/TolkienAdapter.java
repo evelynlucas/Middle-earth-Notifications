@@ -1,4 +1,4 @@
-package org.pursuit.homework0302;
+package org.pursuit.Notification_App_HW_LUCAS_EVELYN;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
