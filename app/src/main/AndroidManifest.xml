@@ -9,8 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="org.pursuit.Notification_App_HW_LUCAS_EVELYN.MainActivity"
-            android:screenOrientation="portrait">
+        <activity android:name="org.pursuit.Notification_App_HW_LUCAS_EVELYN.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,7 +17,6 @@
             </intent-filter>
         </activity>
         <activity android:name="org.pursuit.Notification_App_HW_LUCAS_EVELYN.SecondActivity"
-            android:screenOrientation="portrait"
             android:parentActivityName="org.pursuit.Notification_App_HW_LUCAS_EVELYN.MainActivity"></activity>
 
         <meta-data

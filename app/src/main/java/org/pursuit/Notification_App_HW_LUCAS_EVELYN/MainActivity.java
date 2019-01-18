@@ -1,5 +1,6 @@
 package org.pursuit.Notification_App_HW_LUCAS_EVELYN;
 
+import android.content.res.Configuration;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -32,6 +33,12 @@ public class MainActivity extends AppCompatActivity {
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
         recyclerView.setAdapter(tolkienAdapter);
         recyclerView.setLayoutManager(linearLayoutManager);
+
+        if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT) {
+            linearLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
+        } else {
+            linearLayoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
+        }
     }
 
     private void parseJson() {

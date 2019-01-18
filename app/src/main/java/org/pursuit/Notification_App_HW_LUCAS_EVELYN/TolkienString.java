@@ -47,7 +47,7 @@ public class TolkienString {
                             .put("image", R.drawable.gimli))
                     .put(new JSONObject()
                             .put("name", "Gandalf the Grey")
-                            .put("message", "\"Many that live deserve death. And some that die deserve life. Can you give it to them? Then do not be too eager to deal out death in judgement.\"")
+                            .put("message", "\"Many that live deserve death. And some that die deserve life. Can you give it to them?\"")
                             .put("image", R.drawable.gandalf))
                     .put(new JSONObject()
                             .put("name", "Galadriel")
