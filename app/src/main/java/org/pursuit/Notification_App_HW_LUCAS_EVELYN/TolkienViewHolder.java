@@ -7,8 +7,11 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+/**
+ * Clean!
+ */
 public class TolkienViewHolder extends RecyclerView.ViewHolder {
-    private TextView nameTextView;
+    private TextView nameTextView;      // Good naming!
     private ImageView imageView;
     private TextView messageTextView;
     private Intent intent;

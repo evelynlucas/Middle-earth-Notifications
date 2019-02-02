@@ -4,6 +4,10 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+/**
+ * I like the idea of a separate class to hold your notifications.
+ * You could've just created TolkienCharacters directly here and put it into a List.
+ */
 public class TolkienString {
 
     public static String jsonString;
