@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setAdapter(tolkienAdapter);
         recyclerView.setLayoutManager(linearLayoutManager);
 
+        // Glad you thought of this.
         if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT) {
             linearLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         } else {
@@ -65,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    // Interesting!
     @Override
     protected void onPause() {
         super.onPause();
@@ -72,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
         currentVisiblePosition = ((LinearLayoutManager) recyclerView.getLayoutManager()).findFirstCompletelyVisibleItemPosition();
     }
 
+    // Interesting!
     @Override
     protected void onResume() {
         super.onResume();

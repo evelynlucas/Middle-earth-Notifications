@@ -19,6 +19,7 @@ import android.widget.Toast;
 
 public class SecondActivity extends AppCompatActivity {
 
+    // No need for some of these to be public if no other classes are using them.
     public static final String SHARED_PREFS_KEY = "tolkien_call";
     public static final String STRING_KEY = "string key";
     public static final String BOOLEAN_KEY = "boolean key";
@@ -36,6 +37,8 @@ public class SecondActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
+
+        // GJ separating out these methods
         createNotificationChannel();
         findViewsById();
 
@@ -45,7 +48,7 @@ public class SecondActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                if (name.equals(sharedPreferences.getString(STRING_KEY, "demon")) && sharedPreferences.getBoolean(BOOLEAN_KEY, false)) {
+                if (name.equals(sharedPreferences.getString(STRING_KEY, "demon")) && sharedPreferences.getBoolean(BOOLEAN_KEY, false)) {    // What's the purpose of the second sharedPreferences check?
                     Toast.makeText(SecondActivity.this, "You already clicked this notification!", Toast.LENGTH_SHORT).show();
                 } else {
                     Intent notifyIntent = new Intent(getApplicationContext(), MainActivity.class);
